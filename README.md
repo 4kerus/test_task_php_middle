@@ -2,7 +2,7 @@ composer i
 
 cp .env.example .env
 
-Edit the .env file with your database credentials and APP_URL with ngrok. (ngrok http 8000)
+Edit the .env file with your database credentials, TELEGRAM_BOT_TOKEN and APP_URL with ngrok. (ngrok http 8000)
 
 php artisan key:generate
 
