@@ -25,7 +25,7 @@ services:
     container_name: db
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: laravel_db
+      MYSQL_DATABASE: laravel
       MYSQL_USER: kerus
       MYSQL_PASSWORD: password
     volumes:
